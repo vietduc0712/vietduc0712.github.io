@@ -33,9 +33,9 @@ function showMessage(response) {
         videoElement.controls = false;
         document.body.appendChild(videoElement);
         videoElement.style.position = "fixed";
-        videoElement.style.top = "40%";
+        videoElement.style.top = "39%";
         videoElement.style.left = "50%";
-        videoElement.style.transform = "translate(-45%, -45%)";
+        videoElement.style.transform = "translate(-50%, -50%)";
         videoElement.style.width = "700px"
         document.body.appendChild(videoElement);
         // Set the flag to true after playing the video
